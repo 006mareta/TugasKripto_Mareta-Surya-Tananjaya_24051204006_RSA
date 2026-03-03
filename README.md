@@ -31,15 +31,17 @@ Implementasi ini menggunakan beberapa konsep matematika penting :
 ## Struktur Program dan Penjelasan Step-by-Step
 Program dibagi menjadi 5 bagian utama:
 1.Fungsi Matematika Dasar
-`gcd(a, b)`
+    `gcd(a, b)`  
     Menghitung Greatest Common Divisor (FPB) menggunakan algoritma Euclid.
     Digunakan untuk memastikan bahwa :
     gcd(e, φ(n)) = 1		Artinya e relatif prima terhadap φ(n).
+    
     `extended_euclidean(a, b)`Digunakan untuk menyelesaikan persamaan :
     ax + by = gcd(a, b)	Fungsi ini digunakan untuk mencari invers modular.	
     `mod_inverse(e, phi)`
     Mencari nilai `d` sehingga :
     d × e ≡ 1 (mod φ(n))	Jika gcd(e, φ(n)) ≠ 1 maka invers modular tidak ada.
+    
     `modular_exponentiation(base, exponent, modulus)`
     Menghitung : (base^exponent) mod modulus
     Menggunakan metode Square and Multiply agar efisien dan tidak menghasilkan angka sangat besar.
