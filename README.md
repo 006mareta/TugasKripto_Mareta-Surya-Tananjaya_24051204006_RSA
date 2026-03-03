@@ -36,8 +36,8 @@ Implementasi ini menggunakan beberapa konsep matematika penting :
 Program dibagi menjadi 5 bagian utama:
 
 1.Fungsi Matematika Dasar
+
     `gcd(a, b)`..
-    
     Menghitung Greatest Common Divisor (FPB) menggunakan algoritma Euclid.
     Digunakan untuk memastikan bahwa :
     gcd(e, φ(n)) = 1		Artinya e relatif prima terhadap φ(n).
