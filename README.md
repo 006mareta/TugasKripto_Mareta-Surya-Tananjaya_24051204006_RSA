@@ -30,6 +30,7 @@ Implementasi ini menggunakan beberapa konsep matematika penting :
 
 ## Struktur Program dan Penjelasan Step-by-Step
 Program dibagi menjadi 5 bagian utama:
+
 1.Fungsi Matematika Dasar
     `gcd(a, b)`  
     Menghitung Greatest Common Divisor (FPB) menggunakan algoritma Euclid.
