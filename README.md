@@ -16,7 +16,9 @@ diimplementasikan secara manual untuk menunjukkan pemahaman konsep kriptografi s
 Proyek ini dibuat untuk memenuhi tugas mata kuliah Keamanan Data dan Informasi.
 
 ## Pengantar Teori RSA
-    RSA dikembangkan pada tahun 1977 oleh : Ron Rivest, Adi Shamir, dan Leonard Adleman . RSA merupakan algoritma kriptografi asimetris, yang berarti menggunakan dua kunci berbeda : Public Key digunakan untuk enkripsi dan Private Key digunakan untuk dekripsi.
+RSA dikembangkan pada tahun 1977 oleh : Ron Rivest, Adi Shamir, dan Leonard Adleman.
+RSA merupakan algoritma kriptografi asimetris, yang berarti menggunakan dua kunci berbeda,
+diantaranya Public Key digunakan untuk enkripsi dan Private Key digunakan untuk dekripsi.
 
 ## Konsep Matematis yang Digunakan
 Implementasi ini menggunakan beberapa konsep matematika penting :
@@ -35,6 +37,7 @@ Program dibagi menjadi 5 bagian utama:
 
 1.Fungsi Matematika Dasar
     `gcd(a, b)`..
+    
     Menghitung Greatest Common Divisor (FPB) menggunakan algoritma Euclid.
     Digunakan untuk memastikan bahwa :
     gcd(e, φ(n)) = 1		Artinya e relatif prima terhadap φ(n).
