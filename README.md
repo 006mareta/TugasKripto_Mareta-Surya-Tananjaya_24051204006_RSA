@@ -105,11 +105,11 @@ Program dibagi menjadi 5 bagian utama:
   2) Jalankan Program
   3) Masukkan Pesan 
   4) Ketika program berhasil dijalankan maka akan menampilkan :
-    - Tahap Key Generation
-    - Proses Enkripsi per karakter
-    - Ciphertext
-    - Proses Dekripsi
-    - Hasil akhir plaintext kembali
+     - Tahap Key Generation
+     - Proses Enkripsi per karakter
+     - Ciphertext
+     - Proses Dekripsi
+     - Hasil akhir plaintext kembali
 
 6.Analisis Keamanan
   Kelebihan ;
